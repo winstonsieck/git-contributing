@@ -14,7 +14,28 @@
             "/tests/"
         ]
     },
+    "autoload-dev": {
+        "psr-4": {
+            "KnowTheCode\\GitContributing\\Tests\\PHP\\": "tests/php/",
+            "KnowTheCode\\GitContributing\\Tests\\PHP\\Unit\\": "tests/php/unit/",
+            "KnowTheCode\\GitContributing\\Tests\\PHP\\Integration\\": "tests/php/integration/"
+        }
+    },
+    "require-dev": {
+        "php": "^5.6|^7",
+        "brain/monkey": "^2.2",
+        "composer/installers": "^1.4",
+        "phpunit/phpunit": "~5.7.9"
+    },
     "config": {
         "sort-order": true
+    },
+    "scripts": {
+        "test-unit": "\"vendor/bin/phpunit\" --testsuite unit --color=always",
+        "test-integration": "\"vendor/bin/phpunit\" --testsuite integration --configuration tests/php/integration/phpunit.xml.dist --color=always",
+        "run-tests": [
+            "@test-unit",
+            "@test-integration"
+        ]
     }
 }
