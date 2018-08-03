@@ -6,7 +6,7 @@
  * @since       1.0.0
  * @author      Git Contributing Team
  * @link        https://knowthecode.io
- * @license     GNU-2.0+
+ * @license     GPL3+
  */
 
 namespace KnowTheCode\GitContributing\Asset;

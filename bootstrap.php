@@ -4,7 +4,7 @@
  *
  * @package     KnowTheCode\GitContributing
  * @author      hellofromTonya
- * @license     GPL-2.0+
+ * @license     GPL3+
  *
  * @wordpress-plugin
  * Plugin Name: Git Contributing
@@ -14,7 +14,7 @@
  * Author:      Git Contributing Team
  * Author URI:  https://KnowTheCode.io
  * Text Domain: git-contributing
- * License:     GPL-2.0+
+ * License:     GPL3+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
